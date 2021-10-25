@@ -1,0 +1,460 @@
+:root
+{
+    --app-br: 0.14rem;
+
+    --app-primary: #F59E0B;
+    /* --app-primary: #16A34A; */
+    /* --app-primary: #14B8A6; */
+    --app-grey: #555;
+}
+
+body
+{
+    background-color: #f5f5f5;
+    font-family: 'GT Walsheim Pro';
+}
+
+.app-form-page
+{
+    border-radius: var(--app-br);
+    background-color: #fff;
+    max-width: 420px;
+    margin: 0 auto;
+}
+
+#app-navbar-menu
+{
+    align-items: center;
+    display: flex;
+}
+
+#app-navbar-menu button
+{
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+
+#app-navbar-menu img
+{
+    display: block;
+    height: 24px;
+}
+
+.fs-7
+{
+    font-size: 0.9rem !important;
+}
+
+#app-profile>div, #app-settings>div, #app-discover>div, #app-write-recipe>div, #app-addingredient>div
+{
+    border-radius: var(--app-br);
+    background-color: #fff;
+}
+
+#app-profile-head-img>img
+{
+    height: 105px;
+    width: 105px;
+    border-radius: 1500px;
+    border: 5px solid var(--app-primary);
+}
+
+#app-profile-head-img
+{
+    width: 105px;
+}
+
+#app-profile-head-name
+{
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+#app-profile-head-name h3
+{
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+
+.app-profile-recipe
+{
+    padding: 1rem;
+    width: 33.3333%;
+}
+
+.app-profile-recipe a
+{
+    text-decoration: none;
+    color: #000;
+}
+
+.app-profile-recipe>img
+{
+    height: 105px;
+    border-radius: var(--app-br);
+}
+
+.app-profile-recipe-head,.app-profile-recipe-head>img
+{
+    width: 100%;
+}
+
+#app-profile-recipe-list
+{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.a-normal
+{
+    font-weight: 600;
+    color: var(--app-primary);
+    text-decoration: none;
+    transition: opacity 0.3s;
+}
+
+.a-normal:hover
+{
+    color: var(--app-primary);
+    opacity: 0.6;
+}
+
+#app-navbar-search>button
+{
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+
+#app-navbar-search>input
+{
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+#app-navbar-search>button>img
+{
+    display: block;
+    height: 18px !important;
+}
+
+.no-btn
+{
+    border: 0;
+    background-color: transparent;
+}
+
+.follower-list-row
+{
+    padding: 0.2rem 0;
+    border-bottom: 1px solid #dedede;
+}
+
+.follower-list-row img
+{
+    height: 44px;
+    width: 44px;
+    border-radius: 1200px;
+}
+
+.follower-list-row span
+{
+    color: #000;
+}
+
+.follower-list-row-link
+{
+    text-decoration: none !important;
+}
+
+.app-recipe-title
+{
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+
+#app-recipe-creator>a>span
+{
+    display: flex;
+    align-items: center;
+}
+
+#app-recipe-creator>a>span>p
+{
+    padding: 0;
+    margin: 0;
+}
+
+#app-recipe-creator>a>span>img
+{
+    border: 2px solid var(--app-primary);
+    border-radius: 1000px;
+    height: 38px;
+    width: 38px;
+}
+
+#app-recipe-creator>a
+{
+    color: #000 !important;
+}
+
+.app-recipe-comment a
+{
+    font-weight: normal;
+    color: #000 !important;
+}
+
+.app-recipe-comment
+{
+    margin-bottom: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: var(--app-br);
+}
+
+.app-recipe-comment:last-child
+{
+    margin-bottom: 0 !important;
+}
+
+.app-recipe-comment-creator
+{
+    display: flex;
+    align-items: center;
+}
+
+.app-recipe-comment-creator-name
+{
+    font-weight: 600 !important;
+    line-height: 1rem;
+    letter-spacing: -0.03rem;
+}
+
+.app-recipe-comment-creator-date
+{
+    font-size: 0.85rem;
+    color: #888;
+    line-height: 0.9rem;
+}
+
+.app-recipe-comment-picture
+{
+    height: 38px;
+    width: 38px;
+    border: 2px solid var(--app-primary);
+    border-radius: 1000px;
+}
+
+.msg-404
+{
+    letter-spacing: -1px;
+    font-weight: 700;
+}
+
+.msg-404-sub
+{
+    letter-spacing: -2px;
+    font-weight: 700;
+    font-size: 5rem;
+}
+
+/* ######## */
+
+input[type="text"], input[type="email"], input[type="number"], input[type="password"], 
+input[type="submit"], button, select, textarea, .btn-secondary, .btn-primary
+{
+    outline: none !important;
+    box-shadow: none !important;
+    border-radius: var(--app-br) !important;
+}
+
+.btn-primary, .btn-primary:focus, .btn-primary:hover, .btn-primary:active, .form-switch .form-check-input:checked
+{
+    background-color: var(--app-primary);
+    border-color: var(--app-primary);
+}
+
+.form-label
+{
+    font-size: 0.85rem;
+    color: var(--app-grey);
+    margin-bottom: .1rem;
+}
+
+.dropdown-menu
+{
+    border-radius: var(--app-br) !important;
+    font-size: 0.9rem;
+    border-color: #eee;
+    width: 180px;
+    top: 42px !important;
+}
+
+.app-discover-recipe>h5
+{
+    font-weight: 600;
+}
+
+.app-discover-recipes
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.app-discover-recipes>div
+{
+    width: 25%;
+    margin-bottom: 2.5rem;
+}
+
+.app-discover-recipes>div img
+{
+    width: 100%;
+}
+
+.app-recipe-head
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.app-recipe-head>div
+{
+    width: 50%;
+}
+
+.app-recipe-head table td:nth-child(1),
+.app-recipe-head table td:nth-child(2)
+{
+    width: 120px;
+}
+
+.app-recipe-image
+{
+    padding-left: 3rem;
+}
+
+.app-recipe-image>img
+{
+    display: block;
+    margin: 0 0 0 auto;
+    width: 100%;
+}
+
+.app-recipe-cat>img
+{
+    margin-right: 4px;
+    display: block;
+    height: 1rem;
+    width: 1rem;
+}
+
+.app-recipe-head-info
+{
+    flex: 1;
+}
+
+.app-recipe-head-image
+{
+    max-width: 320px;
+}
+
+.app-recipe-valuations
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.app-recipe-valuation-form div
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.app-valuation-radio
+{
+    border: 0;
+    background-image: url("http://localhost:8080/assets/image/icon/ui/star.svg");
+    box-shadow: none;
+    outline: 0;
+}
+
+.app-valuation-radio:checked
+{
+    border: 0;
+    background-image: url("http://localhost:8080/assets/image/icon/ui/star_filled.svg") !important;
+    background-color: transparent;
+}
+.bubble
+{
+    display: inline-flex;
+    align-items: center;
+    color: #fff;
+    font-size: 0.85rem;
+    border-radius: 1000px;
+}
+
+.bubble>img
+{
+    height: 18px;
+    width: 18px;
+}
+
+.bubble-blue
+{
+    background-color: cornflowerblue;
+}
+
+.bubble-primary
+{
+    background-color: var(--app-primary);
+}
+
+/* ####### CSS MEDIA ####### */
+
+@media only screen and (max-width: 1080px)
+{
+    .app-discover-recipes>div
+    {
+        width: 33.3333%;
+    }
+}
+
+@media only screen and (max-width: 960px)
+{
+    .app-recipe-head>div
+    {
+        width: 100% !important;
+    }
+    
+    .app-recipe-head>div:nth-child(2)
+    {
+        margin-top: 1rem !important;
+    }
+}
+
+@media only screen and (max-width: 680px)
+{
+    .app-discover-recipes>div, .app-profile-recipe
+    {
+        width: 50%;
+    }
+    
+    #app-navbar-search-box
+    {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 520px)
+{
+    .app-profile-recipe
+    {
+        width: 100%;
+    }
+}

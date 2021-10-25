@@ -1,0 +1,91 @@
+.navbar-brand>h4
+{
+    color: var(--app-white)!important;
+}
+
+#con
+{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://vareide.de/assets/image/canvas/wallpaperindex.jpg");
+    height: 100vh;
+}
+
+.form-label
+{
+    font-size: .95rem !important;
+}
+
+.form-check-input:checked
+{
+    background-color: var(--app-black);
+}
+
+.page-headline
+{
+    font-size: 1.75rem;
+    font-family: 'Gilroy-Bold';
+}
+
+/* ### INDEX ### */
+
+#page-index
+{
+    height: 100vh;
+    position: relative;
+}
+
+#page-index>div
+{
+    width: 540px;
+    margin-left: -270px;
+    top: 32%;
+    left: 50%;
+    position: absolute;
+}
+
+.welcome-headline
+{
+    color: var(--app-white);
+    font-family: 'Gilroy-Bold';
+    font-size: 3rem;
+    letter-spacing: -.05rem;
+}
+
+.index-btn>a
+{
+    width: 280px!important;
+    display: block;
+}
+
+/* ### LOGIN ### */
+
+#page-login, #page-signup
+{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page-login>div, #page-signup>div
+{
+    box-shadow: 0 0 5px rgba(0,0,0,.125);
+    border-radius: var(--app-borderrad1);
+    width: 400px;
+    background-color: var(--app-white);
+}
+
+#page-login>div button, #page-signup>div button
+{
+    border-color: var(--app-black);
+    background-color: var(--app-black);
+    color: var(--app-white);
+    transition: opacity 0.2s;
+}
+
+#page-login>div button:hover, #page-signup>div button:hover
+{
+    opacity: .8;
+}

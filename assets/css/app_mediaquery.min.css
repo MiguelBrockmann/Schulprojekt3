@@ -1,0 +1,93 @@
+@media only screen and (max-width: 950px)
+{
+    #bar
+    {
+        display: none;
+    }
+
+    #canvas
+    {
+        margin-left: 0!important;
+    }
+
+    #page-profile-feed
+    {
+        flex-wrap: wrap;
+        display: block!important;
+    }
+
+    #page-profile-feed-info
+    {
+        width: 100%!important;
+    }
+
+    #page-profile-feed-recipes
+    {
+        margin-top: 1rem!important;
+        margin-left: 0!important;
+    }
+}
+
+@media only screen and (max-width: 650px)
+{
+    #search-results
+    {
+        width: 100%!important;
+    }
+
+    .navbar-brand
+    {
+        margin-right: 0;
+    }
+
+    .navbar-search
+    {
+        padding-left: .5rem!important;
+        padding-right: .25rem!important;
+    }
+
+    .foot-nav
+    {
+        flex-wrap: wrap;
+    }
+
+    .foot-nav>div:nth-child(1)
+    {
+        width: 100%;
+        margin-bottom: 2rem;
+        text-align: center!important;
+    }
+
+    .foot-nav>div:nth-child(2), .foot-nav>div:nth-child(3), .foot-nav>div:nth-child(4)
+    {
+        width: 33.3333%;
+        margin-bottom: 2rem;
+    }
+
+    /* .foot-nav>div:nth-child(3), .foot-nav>div:nth-child(4)
+    {
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+    } */
+}
+
+@media only screen and (max-width: 600px)
+{
+    #discover-recipes>div, #discover-categories>div, #filter-recipes>div
+    {
+        width: 100%;
+    }
+
+    .discover-recipe-img, .discover-category-img
+    {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 520px)
+{
+    .navbar-profile>span
+    {
+        display: none;
+    }
+}
